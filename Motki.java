@@ -1,4 +1,4 @@
- class Student {
+ class Motki {
     public void study(){
         System.out.println("student are study");
     }
@@ -8,7 +8,7 @@
     }
 
     public static void main(String[] args){
-         Student s = new Student();
+         Motki s = new Motki();
          s.study();
          s.write();
 
