@@ -1,0 +1,2 @@
+java1 class have nore than one metjod with the same name but different name this is called method overloading 
+same name different parameter
