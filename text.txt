@@ -1,0 +1,9 @@
+operator is a symbol that used to perfrom the operation..
+
+operator:+.-,*,/,%
+
+types of operator:
+
+unary , arithmetic , shift , relational operator , logical , ternary , assignment this are the operator
+
+arithmetic operation:
