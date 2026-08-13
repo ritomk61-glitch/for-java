@@ -13,7 +13,7 @@ public class othentication {
         System.out.println("enter your pass:");
         String pass = sc.nextLine();
 
-        if( username.equals("ritom") && pass.equals("123")){
+        if( username.equals("motki") && pass.equals("123")){
               System.out.println("login successfull");
         }
         else{

@@ -7,3 +7,8 @@ types of operator:
 unary , arithmetic , shift , relational operator , logical , ternary , assignment this are the operator
 
 arithmetic operation:
+
+
+Loop
+
+loop is  used to a block of code repeatedly 
