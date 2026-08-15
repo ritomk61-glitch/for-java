@@ -12,3 +12,25 @@ arithmetic operation:
 Loop
 
 loop is  used to a block of code repeatedly 
+
+
+/import java.util.*;
+
+public class FourthLargestDigit {
+    public static void main(String[] args) {
+        int num = 2891345;
+        List<Integer> digits = new ArrayList<>();
+
+        // Extract digits
+        while (num > 0) {
+            digits.add(num % 10);
+            num /= 10;
+        }
+
+        // Sort in descending order
+        Collections.sort(digits, Collections.reverseOrder());
+
+        // Get 4th largest (index 3 because list starts at 0)
+        System.out.println("Fourth largest digit: " + digits.get(3));
+    }
+}
