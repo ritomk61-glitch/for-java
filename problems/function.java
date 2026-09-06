@@ -1,0 +1,6 @@
+/**
+ * function
+ */
+public class function {
+
+}
