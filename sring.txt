@@ -1,0 +1,17 @@
+In Java, a string is an immutable object of the java.lang.String class that represents a sequence of characters.  Internally, these strings are backed by a UTF-16 char array and are designed to be constant, meaning their values cannot be altered after creation. 
+
+Strings are created using two primary methods:
+
+String Literals: Defined by enclosing text in double quotes (e.g., String s = "Hello";), which utilizes the String Pool to save memory. 
+
+New Keyword: Explicitly instantiating the object (e.g., String s = new String("Hello");), which creates a new object in the heap memory. 
+
+new Keyword use to heap area
+
+The String class implements CharSequence, Serializable, and Comparable interfaces, providing a rich API for manipulation.  Common operations include concatenation,content comparison using equals(), substring extraction, and searching for specific characters or patterns. 
+
+hascode is a method this method use to store inside the memeoty fast access delete and search..hascode is a bucket location of the object..
+
+java can not support pointer..
+
+if two content are same then the hascode will be same.
