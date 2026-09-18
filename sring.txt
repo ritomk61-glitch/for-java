@@ -15,3 +15,5 @@ hascode is a method this method use to store inside the memeoty fast access dele
 java can not support pointer..
 
 if two content are same then the hascode will be same.
+
+non syncronize string bulder and faster than string buffer..not threat safes

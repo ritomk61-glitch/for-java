@@ -4,3 +4,7 @@ class can implement multiple interfaces achieces multiple inheritance
 
 allows reusability of code and polymorphism
 
+string buffer is a sequence of character..its mutable , threats safe , synchronized , present 
+
+
+only one thread process in one time this is called synchronized,slower than stringbuffer
