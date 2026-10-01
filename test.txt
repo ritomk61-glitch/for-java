@@ -2,3 +2,14 @@ java1 class have nore than one metjod with the same name but different name this
 same name different parameter
 
 array is a collection of similar datatype of element
+
+
+this keyword
+
+this - current object
+this() - current class constructor
+super - parent class 
+super() - parent class constructor
+
+
+super key word used to 
