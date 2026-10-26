@@ -39,5 +39,7 @@ public class Main {
         int i = Integer.parseInt(name);
 
         System.out.println(i);
+        
+        System.err.println("hello world");
     }
 }

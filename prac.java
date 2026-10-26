@@ -1,27 +1,42 @@
+import java.util.*;
+
 class hello {
     String name;
     int roll;
-    int system_id;
+    String address;
 
-    public void student(String name, int roll, int system_id) {
+    public void student(String name, int roll, String address) {
         this.name = name;
         this.roll = roll;
-        this.system_id = system_id;
+        this.address = address;
     }
 
-    class student extends hello {
-        void show() {
-            System.out.println(
-                    "hello your name is " + name + " and your roll is " + roll + "your system id is " + system_id);
-        }
-
+    void show() {
+        System.out.println(
+                "hello your name is " + name + " and your roll is " + roll + "your system id is " + address);
     }
 
     public static void main(String[] args) {
-      student s = new student();
+        Scanner sc = new Scanner(System.in);
 
-      s.student("riotm" ,38927294,3274527);
-      s.show();
+        for (int i = 0; i <= 3; i++) {
+            System.out.println("enter student no " + i + "details(name,roll,group:");
+
+            System.out.println("enter your name:");
+            String num = sc.nextLine();
+
+            System.out.println("enter your roll:");
+            int rol = sc.nextInt();
+
+            System.out.println("etner your address:");
+            String add = sc.nextLine();
+
+            // hello s = new hello();
+
+            // s.student();
+            // s.show();
+            sc.close();
+        }
 
     }
 }
