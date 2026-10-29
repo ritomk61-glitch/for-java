@@ -1,0 +1,29 @@
+multitasking
+
+process based
+mor than process execute simultiniously
+
+p1 is process 1 then p2 p3 
+
+process is a highly wait.take much more memory
+
+thread based multitasking:
+
+thread is a light wait sub process.sequencial indipendent path of the execution
+
+thread is the smallest unit of the program
+
+thread is the light waight.thread class present in java.lang package
+one process have more than one thread
+
+thread have their own stack
+
+life cycle of a thread..
+
+thread have 5 life cycle:
+
+new
+active 
+blocked
+timed waiting
+terminated
